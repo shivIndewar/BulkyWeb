@@ -4,7 +4,7 @@
     <div class="card-header bg-secondary bg-gradient ml-0 py-3">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="text-white">Create Category</h2>
+                <h2 class="text-white">Delete Category</h2>
             </div>
 
         </div>
@@ -12,10 +12,6 @@
     <div class="card-body p-4">
         <form asp-controller="Category" asp-action="Delete">
             <div class="border p-3 mt-4">
-                <div class="row pb-2">
-                    <h2 class="text-primary">Delete Category</h2>
-                    <hr />
-                </div>
 
                 <div class="form-floating py-2 col-12">
                     <input asp-for="Name" disabled type="text" class="form-control border-0 shadow" />

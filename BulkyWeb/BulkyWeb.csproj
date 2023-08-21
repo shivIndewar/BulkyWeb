@@ -13,6 +13,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0-preview.7.23408.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BulkWeb.Models\BulkWeb.Models.csproj" />
+    <ProjectReference Include="..\Bulky.Utility\Bulky.Utility.csproj" />
+    <ProjectReference Include="..\BulkyWeb.DataAccess\BulkyWeb.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
